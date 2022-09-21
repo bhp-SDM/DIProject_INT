@@ -8,7 +8,7 @@ namespace DIProject_INT.Model
 {
     public class Student
     {
-        int Id { get; set; }
+        public int ID { get; set; }
         public string Name { get; set; }
         public string? Email { get; set; }
 
@@ -17,7 +17,7 @@ namespace DIProject_INT.Model
 
         public Student(int id, string name, string email)
         {
-            Id = id;
+            ID = id;
             Name = name;
             Email = email;
         }
